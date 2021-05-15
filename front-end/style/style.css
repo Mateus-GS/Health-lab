@@ -1,0 +1,118 @@
+/* Flex Item */
+
+h1 {
+    font-family: 'Shadows Into Light Two', cursive;
+    color: #55595c;
+    font-size: 60px;
+    text-align: center;
+}
+
+.item {
+	margin: -7px;
+	text-align: center;
+	font-size: 1.5em;
+}
+.item2 {
+	margin: -7px;
+	text-align: center;
+	font-size: 1.5em;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+.flex {
+	display: flex;
+}
+
+img {
+    width: 1100px;
+    height: 100vh;
+}
+
+form {
+    margin: 10px;
+}
+
+.entrada {
+    border-radius: 6px;
+    border: 1px solid black;
+    padding: 6px;
+    margin-bottom: 11%;
+}
+
+.botao {
+    background-color: #707070;
+    color: white;
+    text-transform: uppercase;
+}
+
+.linkEntrada {
+    color: #707070;
+    font-size: 15px;
+    text-decoration: none; 
+
+}
+
+.cabecalho {
+    width: auto;
+    height: 100px;
+    background-color: #4aa95a;
+    color: white;
+}
+
+.box_relatorio{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 500px;
+    height: 150px;
+    background-color: #d9534f;
+    border-color: #d9534f;
+    
+}
+
+.box_relatorio p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.boxBottom_relatorio {
+    font-family: 'Roboto', sans-serif;
+    width: 495px;
+    height:50px;
+    margin-left: 5%;
+    background-color: white;
+    border-style: solid;
+    border-color: #d9534f;
+}
+
+.boxBottom_relatorio p {
+    color: #d9534f;
+    margin-left: 50px;
+}
+
+.row {
+	flex-direction: row;
+}
+
+.container {
+	/* max-width: 400px; */
+	/* margin: 10px auto; */
+    margin-left: 50px;
+	display: flex;
+	/* border: 1px solid #ccc;   */
+}
+
+.item {
+	/* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+	flex: 1;
+	margin: 5px;
+	/* background: tomato; */
+	text-align: center;
+	font-size: 1.5em;
+}
