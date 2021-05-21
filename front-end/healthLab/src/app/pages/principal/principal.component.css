@@ -62,18 +62,26 @@ form {
 }
 
 .cabecalho {
-    margin-left: -10px;
+    /* margin-left: -10px; */
     width: auto;
     height: 100px;
-    margin-top: -25px;
+    /* margin-top: -25px; */
     background-color: #4aa95a;
-    color: white;
     font-size: 25px;
 }
 
 .cabecalho p {
-    padding-left: 5px;
-    padding-top: 69px;
+    /* padding-left: 5px;
+    padding-top: 69px; */
+    margin-left: 1%;
+    margin-top: -0.2%;
+    color: white;
+}
+
+.iconeUsuario {
+    margin-left: 1.5%;
+    margin-top: 1%;
+    font-size: 40px;
 }
 
 .box_relatorio{
@@ -84,6 +92,11 @@ form {
     background-color: #d9534f;
     border-color: #d9534f;
     
+}
+
+.Azul {
+    background-color: #428bca;
+    border-color: #428bca;
 }
 
 .box_relatorio p {
@@ -124,3 +137,11 @@ form {
     font-size: 45px;
 }
 
+.verDetalhes {
+    /* margin-right: 50%; */
+    margin-top: 17px;
+}
+
+.iconeAdd {
+    margin-left: 50%;
+}

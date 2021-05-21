@@ -1,26 +1,39 @@
 <div class="cabecalho">
+    <mat-icon class="iconeUsuario" aria-label="usuario">account_circle</mat-icon>
     <p>User:</p> 
 </div>
+<!-- <mat-icon aria-hidden="false" aria-label="Example home icon">assignment</mat-icon> -->
 
-<h1>Dashboard</h1>
+<h1>DASHBOARD</h1>
 
 <div class="container ">
     
     <div class="item">
         <div class="box_relatorio">
-            <p >Acidente do <br/>Trabahlho</p>
+            <!-- <mat-icon  ria-label="iconeBox">assignment</mat-icon> -->
+            <p>
+                Acidente do <br/>Trabalho
+            </p>
         </div>
         <div class="boxBottom_relatorio">
-            <a routerLink="/acidente-de-trabalho"><p>VER DETALHES</p> </a>
+            <a routerLink="/acidente-de-trabalho">
+                <p class="verDetalhes">Ver detalhes 
+                    <mat-icon class="iconeAdd" aria-label="usuario">add</mat-icon>
+                </p>
+            </a>
         </div>
     </div>
 
     <div class="item">
-        <div style="background-color: #428bca; border-color: #428bca" class="box_relatorio">
+        <div class="box_relatorio Azul">
             <p >PPP</p>
         </div>
-        <div style="border-color: #428bca;" class="boxBottom_relatorio">
-            <a href="#"><p style="color: #428bca"> VER DETALHES </p> </a>
+        <div style="border-color: #428bca;" class="boxBottom_relatorio Azul">
+            <a routerLink="/">
+                <p class="verDetalhes" style="color: #428bca"> Ver detalhes 
+                    <mat-icon class="iconeAdd" aria-label="usuario">add</mat-icon>
+                </p>
+            </a>
         </div>
     </div>
 
@@ -29,7 +42,11 @@
             <p >Brigada de <br/>Incendio</p>
         </div>
         <div style="border-color: #4aa95a;" class="boxBottom_relatorio">
-            <a href="#"><p style="color: #4aa95a"> VER DETALHES </p></a> 
+            <a routerLink="/">
+                <p class="verDetalhes" style="color: #4aa95a;"> Ver detalhes 
+                    <mat-icon class="iconeAdd" aria-label="usuario">add</mat-icon>
+                </p>
+            </a> 
         </div>
     </div>
 
@@ -38,7 +55,11 @@
             <p >PGR</p>
         </div>
         <div style="border-color: #AF70C1;" class="boxBottom_relatorio">
-            <a href="#"><p style="color: #AF70C1"> VER DETALHES </p> </a>
+            <a routerLink="/">
+                <p class="verDetalhes" style="color: #AF70C1"> Ver detalhes 
+                    <mat-icon class="iconeAdd" aria-label="usuario">add</mat-icon> 
+                </p> 
+            </a>
         </div>
     </div>
 
@@ -47,7 +68,11 @@
             <p >Gestão de empresas contratadas</p>
         </div>
         <div style="border-color: #55595c;" class="boxBottom_relatorio">
-            <a href="#"><p style="color: #55595c"> VER DETALHES </p> </a>
+            <a routerLink="/">
+                <p class="verDetalhes" style="color: #55595c"> Ver detalhes 
+                    <mat-icon class="iconeAdd" aria-label="usuario">add</mat-icon>
+                </p> 
+            </a>
         </div>
     </div>
     <div class="item">
@@ -55,7 +80,11 @@
             <p >Relatório gerenciais e planilhas compulsórias</p>
         </div>
         <div style="border-color: #F49B0F;" class="boxBottom_relatorio">
-            <a href="#"><p style="color: #F49B0F"> VER DETALHES </p> </a>
+            <a routerLink="/">
+                <p class="verDetalhes" style="color: #F49B0F"> Ver detalhes 
+                    <mat-icon class="iconeAdd" aria-label="usuario">add</mat-icon>
+                </p> 
+            </a>
         </div>
     </div>
 </div>
