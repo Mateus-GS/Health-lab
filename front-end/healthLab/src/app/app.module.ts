@@ -15,6 +15,7 @@ import { AtestadoMedicoComponent } from './pages/atestado-medico/atestado-medico
 import {MatIconModule} from '@angular/material/icon';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { RelatorioComponent } from './pages/relatorio/relatorio.component';
+import { RelatorioDeAcidenteComponent } from './pages/relatorio-de-acidente/relatorio-de-acidente.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { RelatorioComponent } from './pages/relatorio/relatorio.component';
     AcidenteDeTrabalhoComponent,
     CadastroCatComponent,
     AtestadoMedicoComponent,
-    RelatorioComponent
+    RelatorioComponent,
+    RelatorioDeAcidenteComponent
   ],
   imports: [
     BrowserModule,

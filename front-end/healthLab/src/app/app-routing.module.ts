@@ -7,6 +7,7 @@ import { CadastroComponent } from './pages/cadastro/cadastro.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PrincipalComponent } from './pages/principal/principal.component';
 import { RecuperarSenhaComponent } from './pages/recuperar-senha/recuperar-senha.component';
+import { RelatorioDeAcidenteComponent } from './pages/relatorio-de-acidente/relatorio-de-acidente.component';
 import { RelatorioComponent } from './pages/relatorio/relatorio.component';
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path:"cadastro-cat", component: CadastroCatComponent},
   { path:"atestado-medico", component: AtestadoMedicoComponent},
   { path:"relatorio", component: RelatorioComponent},
+  { path:"relatorio-de-acidente", component: RelatorioDeAcidenteComponent},
 ];
 
 @NgModule({

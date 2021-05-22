@@ -1,0 +1,231 @@
+<div class="cabecalho">
+    <mat-icon class="iconeUsuario" aria-label="usuario">account_circle</mat-icon>
+    <p>User: Usuário</p> 
+</div>
+
+<div style="display: inline;">
+    <h1>{{tituloRelatorioDeAcidente}}</h1>
+    <a (click)="editar()"><mat-icon class="iconeEditar" aria-label="usuario">edit</mat-icon></a>
+    <a (click)="salvar()"><mat-icon class="iconeSalvar" aria-label="usuario">save</mat-icon></a>
+</div>
+
+<div class="container">
+    <form>
+        <h3>Informações do contrante: </h3>
+
+        <div>
+            <span>Razão Social: </span>
+            <input type="text" placeholder="Razão Social">             
+        </div>
+
+        <div>
+            <span>CNPJ/MF: </span>
+            <input type="text" placeholder="CNPJ/MF">   
+        </div>
+
+        <div >
+            <span>CNAE: </span>
+            <input type="text" placeholder="CNAE">    
+        </div>
+
+        <div >
+            <span>Endereço: </span>
+            <input type="text" placeholder="Endereço">            
+        </div>
+
+        <div >
+            <span>Bairro: </span>
+            <input type="text" placeholder="Bairro">            
+        </div>
+
+        <div >
+            <span>Municipio: </span>
+            <input type="text" placeholder="Municipio">            
+        </div>
+
+        <div >
+            <span>N°: </span>
+            <input type="text" placeholder="N°">            
+        </div>
+
+        <div >
+            <span>UF: </span>
+            <input type="text" placeholder="UF">            
+        </div>
+
+        <div >
+            <span>N° Funcionario: </span>
+            <input type="text" placeholder="N° Funcionario">            
+        </div>
+
+        <div >
+            <span>GR: </span>
+            <input type="text" placeholder="GR">            
+        </div>
+
+    </form>
+
+    <form>
+        <h3>Informações preliminares sobre o acidente de trabalho: </h3>
+
+        <div>
+            <span>N° de trabalho(s) acidentado(s): </span>
+            <input type="text" placeholder="N° de trabalho(s) acidentado(s)">             
+        </div>
+
+        <div>
+            <span>Data do acidente: </span>
+            <input type="date">   
+        </div>
+
+        <div >
+            <span>Local do acidente: </span>
+            <input type="text" placeholder="Local do acidente">    
+        </div>
+
+        <div >
+            <span>Hora aproximada: </span>
+            <input type="time" >            
+        </div>
+
+        <div >
+            <span>Tipo de Acidente: </span>
+            <input type="text" placeholder="Tipo de Acidente">            
+        </div>
+
+    </form>
+
+    <form>
+        <h3>Informações sobre o acidentado: </h3>
+
+        <div>
+            <span>Nome : </span>
+            <input type="text" placeholder="Nome">             
+        </div>
+
+        <div>
+            <span>N° de identidade: </span>
+            <input type="text" placeholder="N° de identidade">   
+        </div>
+
+        <div >
+            <span>CPF: </span>
+            <input type="text" placeholder="CPF">    
+        </div>
+
+        <div>
+            <span>Data de Nascimento: </span>
+            <input type="date">   
+        </div>
+
+        <div >
+            <span>Estado Civil: </span>
+            <input type="text" placeholder="Estado Civil">            
+        </div>
+
+        <div >
+            <span>Escolaridade: </span>
+            <input type="text" placeholder="Escolaridade">            
+        </div>
+        
+        <div >
+            <span>Endereço: </span>
+            <input type="text" placeholder="Endereço">            
+        </div>
+
+        <div >
+            <span>Bairro: </span>
+            <input type="text" placeholder="Bairro">            
+        </div>
+
+        <div >
+            <span>Municipio: </span>
+            <input type="text" placeholder="Municipio">            
+        </div>
+
+        <div >
+            <span>UF: </span>
+            <input type="text" placeholder="UF">            
+        </div>
+
+        <div >
+            <span>CEP: </span>
+            <input type="text" placeholder="CEP">            
+        </div>
+
+        <div >
+            <span>COB: </span>
+            <input type="text" placeholder="COB">            
+        </div>
+
+        <div >
+            <span>Nome da Mãe: </span>
+            <input type="text" placeholder="Nome da Mãe">            
+        </div>
+
+        <div >
+            <span>Nome da Esposa: </span>
+            <input type="text" placeholder="Nome da Esposa">            
+        </div>
+
+        <div>
+            <span>Data de Admissão: </span>
+            <input type="date">   
+        </div>
+
+        <div>
+            <span>Tempo de função: </span>
+            <input type="text" placeholder="Tempo de função">   
+        </div>
+
+    </form>
+
+    <form>
+        <h3>Descrição do trabalho habitual (Rotineiro-Sem Acidente): </h3>
+
+        <div>
+            <textarea id="story" name="story" rows="7" cols="100"></textarea>      
+        </div>
+    </form>
+
+    <form>
+        <h3>Que trabalho estava sendo realizado no momento da acidente: </h3>
+
+        <div>
+            <textarea id="story" name="story" rows="7" cols="100"></textarea>      
+        </div>
+    </form>
+
+    <form>
+        <h3>Descrição do local do acidente: </h3>
+
+        <div>
+            <textarea id="story" name="story" rows="7" cols="100"></textarea>      
+        </div>
+    </form>
+
+    <form>
+        <h3>Como e por quem o trabalho é preparado? O que é preciso fazer antes de
+            começar esse trabalho? Há alguma coisa que se não tiver sido feita impede o início
+            ou dificulta a realização do trabalho? Quem faz isso: </h3>
+        <div>
+            <textarea id="story" name="story" rows="7" cols="100"></textarea>      
+        </div>
+    </form>
+
+    <form>
+        <h3>Que máquinas, equipamentos, ferramentas e materiais são utilizados pelo
+            trabalhador normalmente para essa tarefa?: </h3>
+        <div>
+            <textarea id="story" name="story" rows="7" cols="100"></textarea>      
+        </div>
+    </form>
+
+    <form>
+        <h3>Descrição sucinta da sequência de eventos do acidente: </h3>
+        <div>
+            <textarea id="story" name="story" rows="7" cols="100"></textarea>      
+        </div>
+    </form>
+
+</div>
