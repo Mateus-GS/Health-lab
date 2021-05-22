@@ -25,18 +25,23 @@ a {
 
 
 .cabecalho {
-    margin-left: -10px;
     width: auto;
     height: 100px;
-    margin-top: -25px;
     background-color: #4aa95a;
-    color: white;
     font-size: 25px;
 }
 
 .cabecalho p {
-    padding-left: 5px;
-    padding-top: 69px;
+    margin-left: 1%;
+    margin-top: -0.2%;
+    color: white;
+}
+
+.iconeUsuario {
+    margin-left: 1.5%;
+    margin-top: 1%;
+    font-size: 40px;
+    color: #333333;
 }
 
 .box_relatorio_AcidenteDeTrabalho{
@@ -73,14 +78,27 @@ a {
     display: flex;
     flex-wrap: wrap;
 }
-  
-/* .containerAcidenteDoTrabalho .itemAcidenteDoTrabalho {
-    flex-grow: 1;
-    flex-basis: 300px;
-} */
 
 .containerAcidenteDoTrabalho{
     flex-direction: row;
     justify-content: center;
     align-items: center
+}
+
+.verDetalhes {
+    margin-top: 17px;
+}
+
+.iconeAdd {
+    margin-left: 50%;
+    
+}
+
+.iconeBox {
+    display:inline;
+    float:left;
+    margin: 5%;
+    margin-top: 2%;
+    font-size: 90px;
+    color: #333333;
 }

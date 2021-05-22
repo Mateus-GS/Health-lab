@@ -9,8 +9,11 @@ import { RecuperarSenhaComponent } from './pages/recuperar-senha/recuperar-senha
 import { PrincipalComponent } from './pages/principal/principal.component';
 import { AcidenteDeTrabalhoComponent } from './pages/acidente-de-trabalho/acidente-de-trabalho.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CadastroCatComponent } from './pages/cadastro-cat/cadastro-cat.component';
 
 import {MatIconModule} from '@angular/material/icon';
+import {MatFormFieldModule} from '@angular/material/form-field';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,13 +21,15 @@ import {MatIconModule} from '@angular/material/icon';
     CadastroComponent,
     RecuperarSenhaComponent,
     PrincipalComponent,
-    AcidenteDeTrabalhoComponent
+    AcidenteDeTrabalhoComponent,
+    CadastroCatComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]

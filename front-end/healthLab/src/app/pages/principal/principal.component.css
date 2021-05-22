@@ -62,17 +62,14 @@ form {
 }
 
 .cabecalho {
-    /* margin-left: -10px; */
     width: auto;
     height: 100px;
-    /* margin-top: -25px; */
     background-color: #4aa95a;
     font-size: 25px;
 }
 
 .cabecalho p {
-    /* padding-left: 5px;
-    padding-top: 69px; */
+
     margin-left: 1%;
     margin-top: -0.2%;
     color: white;
@@ -102,7 +99,7 @@ form {
 .box_relatorio p {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
 }
 
@@ -138,10 +135,13 @@ form {
 }
 
 .verDetalhes {
-    /* margin-right: 50%; */
     margin-top: 17px;
 }
 
 .iconeAdd {
     margin-left: 50%;
+    
+}
+.iconeUsuario {
+    color: #333333;
 }
