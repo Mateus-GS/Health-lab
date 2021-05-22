@@ -7,6 +7,7 @@ import { CadastroComponent } from './pages/cadastro/cadastro.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PrincipalComponent } from './pages/principal/principal.component';
 import { RecuperarSenhaComponent } from './pages/recuperar-senha/recuperar-senha.component';
+import { RelatorioComponent } from './pages/relatorio/relatorio.component';
 
 const routes: Routes = [
   { path:"", component: LoginComponent},
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path:"acidente-de-trabalho", component: AcidenteDeTrabalhoComponent},
   { path:"cadastro-cat", component: CadastroCatComponent},
   { path:"atestado-medico", component: AtestadoMedicoComponent},
+  { path:"relatorio", component: RelatorioComponent},
 ];
 
 @NgModule({

@@ -1,0 +1,50 @@
+.cabecalho {
+    width: auto;
+    height: 100px;
+    background-color: #4aa95a;
+    font-size: 25px;
+}
+
+.cabecalho p {
+    margin-left: 1%;
+    margin-top: -0.2%;
+    color: white;
+}
+
+.iconeUsuario {
+    margin-left: 1.5%;
+    margin-top: 1%;
+    font-size: 40px;
+    color: #333333;
+}
+
+h1 {
+    font-family: 'Shadows Into Light Two', cursive;
+    color: #55595c;
+    font-size: 60px;
+    text-align: center;
+}
+
+.item {
+    margin-left: 2%;
+    width: 300px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: 1px solid #333333;
+}
+
+.itemContainer {
+    border: 1px solid #333333;
+    border-radius: 10px ;
+    text-align: center;
+}
