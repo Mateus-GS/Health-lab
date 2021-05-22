@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CadastroCatComponent implements OnInit {
 
+  public tituloCat ='CADASTRO CAT';
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  editar() {
+    this.tituloCat = 'EDITANDO CAT';
+  }
+
+  salvar() {
+    alert('Dados salvo com sucesso!');
+    this.tituloCat = 'CADASTRO CAT';
   }
 
 }

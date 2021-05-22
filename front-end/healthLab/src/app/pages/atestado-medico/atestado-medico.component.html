@@ -1,0 +1,42 @@
+<div class="cabecalho">
+    <mat-icon class="iconeUsuario" aria-label="usuario">account_circle</mat-icon>
+    <p>User: Usuário</p> 
+</div>
+
+<div style="display: inline;">
+    <h1>ATESTADO MÉDICO</h1>
+    <a (click)="salvar()"><mat-icon class="iconeSalvar" aria-label="usuario">save</mat-icon></a>
+</div>
+
+<div class="container">
+    <form>
+
+        <div >
+            <span>Nome do colaborador: </span>
+            <input type="text" placeholder="Nome do colaborador">            
+        </div>
+
+        <div >
+            <span>Matrícula: </span>
+            <input type="text" placeholder="Matrícula">            
+        </div>
+
+        <div >
+            <span>CID: </span>
+            <input type="text" placeholder="CID">            
+        </div>
+
+        <div >
+            <span>Período: </span>
+            <input type="date" placeholder="Período">            
+        </div>
+
+        <div>
+            <span>Upload do Atestado: </span>
+            <a (click)="uploadDoArquivo()"><mat-icon  aria-label="uploadDoArquivo">file_upload</mat-icon></a>      
+        </div>
+
+    </form>
+
+</div>
+

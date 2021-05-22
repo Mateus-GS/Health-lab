@@ -10,9 +10,11 @@ import { PrincipalComponent } from './pages/principal/principal.component';
 import { AcidenteDeTrabalhoComponent } from './pages/acidente-de-trabalho/acidente-de-trabalho.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CadastroCatComponent } from './pages/cadastro-cat/cadastro-cat.component';
+import { AtestadoMedicoComponent } from './pages/atestado-medico/atestado-medico.component';
 
 import {MatIconModule} from '@angular/material/icon';
 import {MatFormFieldModule} from '@angular/material/form-field';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     RecuperarSenhaComponent,
     PrincipalComponent,
     AcidenteDeTrabalhoComponent,
-    CadastroCatComponent
+    CadastroCatComponent,
+    AtestadoMedicoComponent
   ],
   imports: [
     BrowserModule,

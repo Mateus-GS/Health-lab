@@ -5,9 +5,9 @@
 </div>
 
 <div style="display: inline;">
-    <h1>CADASTRO CAT</h1>
-    <mat-icon class="iconeEditar" aria-label="usuario">edit</mat-icon>
-    <mat-icon class="iconeSalvar" aria-label="usuario">save</mat-icon>  
+    <h1>{{tituloCat}}</h1>
+    <a (click)="editar()"><mat-icon class="iconeEditar" aria-label="usuario">edit</mat-icon></a>
+    <a (click)="salvar()"><mat-icon class="iconeSalvar" aria-label="usuario">save</mat-icon></a>
 </div>
 <div class="container">
     <form>
@@ -80,6 +80,32 @@
             <span>Salário: </span>
             <input type="text" placeholder="Salário">            
         </div>
+
+        <div >
+            <span>Telefone: </span>
+            <input type="tel" placeholder="Tetefone">            
+        </div>
+
+        <div >
+            <span>Endereço: </span>
+            <input type="text" placeholder="Endereço">            
+        </div>
+
+        <div >
+            <span>CEP: </span>
+            <input type="tel" placeholder="CEP">            
+        </div>
+
+        <div >
+            <span>Data de acidente: </span>
+            <input type="tel" placeholder="Data de acidente">            
+        </div>
+
+        <div >
+            <span>Último dia trabalhando: </span>
+            <input type="tel" placeholder="Último dia trabalhando">            
+        </div>
+
     </form>
 
 </div>
