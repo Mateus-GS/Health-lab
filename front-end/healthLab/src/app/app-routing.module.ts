@@ -4,6 +4,7 @@ import { AcidenteDeTrabalhoComponent } from './pages/acidente-de-trabalho/aciden
 import { AtestadoMedicoComponent } from './pages/atestado-medico/atestado-medico.component';
 import { CadastroCatComponent } from './pages/cadastro-cat/cadastro-cat.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
+import { DadosAdministrativosComponent } from './pages/dados-administrativos/dados-administrativos.component';
 import { DashbordPppComponent } from './pages/dashbord-ppp/dashbord-ppp.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PrincipalComponent } from './pages/principal/principal.component';
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path:"relatorio", component: RelatorioComponent},
   { path:"relatorio-de-acidente", component: RelatorioDeAcidenteComponent},
   { path:"dashboard-ppp", component: DashbordPppComponent},
+  { path:"dados-administrativos", component: DadosAdministrativosComponent},
 ];
 
 @NgModule({

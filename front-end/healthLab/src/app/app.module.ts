@@ -17,6 +17,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { RelatorioComponent } from './pages/relatorio/relatorio.component';
 import { RelatorioDeAcidenteComponent } from './pages/relatorio-de-acidente/relatorio-de-acidente.component';
 import { DashbordPppComponent } from './pages/dashbord-ppp/dashbord-ppp.component';
+import { DadosAdministrativosComponent } from './pages/dados-administrativos/dados-administrativos.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { DashbordPppComponent } from './pages/dashbord-ppp/dashbord-ppp.componen
     AtestadoMedicoComponent,
     RelatorioComponent,
     RelatorioDeAcidenteComponent,
-    DashbordPppComponent
+    DashbordPppComponent,
+    DadosAdministrativosComponent
   ],
   imports: [
     BrowserModule,

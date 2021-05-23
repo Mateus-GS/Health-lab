@@ -1,0 +1,119 @@
+<div class="cabecalho">
+    <mat-icon class="iconeUsuario" aria-label="usuario">account_circle</mat-icon>
+    <p>User: Usuário</p> 
+</div>
+
+<div style="display: inline;">
+    <h1>{{tituloDadosAdministrativos}}</h1>
+    <a (click)="editar()"><mat-icon class="iconeEditar" aria-label="usuario">edit</mat-icon></a>
+    <a (click)="salvar()"><mat-icon class="iconeSalvar" aria-label="usuario">save</mat-icon></a>
+</div>
+
+<div class="container">
+    <form>
+        <h3>Dados administativos</h3>
+        <div>
+            <span>CNPJ: </span>
+            <input type="text" placeholder="CNPJ">             
+        </div>
+
+        <div>
+            <span>Nome impresarial: </span>
+            <input type="text" placeholder="Nome impresarial">   
+        </div>
+
+        <div >
+            <span>CNAE: </span>
+            <input type="text" placeholder="CNAE">    
+        </div>
+
+        <div >
+            <span>Nome do trabalhador: </span>
+            <input type="text" placeholder="Nome do trabalhador">            
+        </div>
+
+        <div >
+            <span>BR/PDH: </span>
+            <input type="text" placeholder="BR/PDH">            
+        </div>
+
+        <div >
+            <span>NIT: </span>
+            <input type="text" placeholder="NIT">            
+        </div>
+
+        <div >
+            <span>Data de nacimento: </span>
+            <input type="date">            
+        </div>
+
+        <div>
+            <span>Sexo: </span> 
+            <select name="" id="">
+                <option value="1">Masculino</option>
+                <option value="2">Feminino</option>
+            </select>
+        </div>
+        
+        <div >
+            <span>CTPS: </span>
+            <input type="text" placeholder="CTPS">            
+        </div>
+
+        <div >
+            <span>N° CAT Cadastrada: </span>
+            <input type="text" placeholder="N° CAT Cadastrada">            
+        </div>
+
+    </form>
+
+
+    <form>
+        <h3>Lotação e atributo</h3>
+        <div>
+            <span>Período: </span>
+            <input type="date">             
+        </div>
+
+        <div>
+            <span>CNPJ/CEI: </span>
+            <input type="text" placeholder="CNPJ/CEI">   
+        </div>
+
+        <div >
+            <span>Setor: </span>
+            <input type="text" placeholder="Setor">    
+        </div>
+
+        <div >
+            <span>Cargo e Função: </span>
+            <input type="text" placeholder="Cargo e Função">            
+        </div>
+
+        <div >
+            <span>CBO: </span>
+            <input type="text" placeholder="CBO">            
+        </div>
+
+        <div >
+            <span>CFIP: </span>
+            <input type="text" placeholder="CFIP">            
+        </div>
+
+    </form>
+
+    <form>
+        <h3>Profissiogradia</h3>
+        <div>
+            <span>Período: </span>
+            <input type="date">             
+        </div>
+
+        <div>
+            <h3>Descrição da atividade</h3>
+            <textarea id="story" name="story" rows="7" cols="100" placeholder="Descrição da atividade"></textarea>      
+        </div>
+
+    </form>
+
+</div>
