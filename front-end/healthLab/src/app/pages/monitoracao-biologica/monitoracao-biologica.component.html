@@ -1,0 +1,82 @@
+<div class="cabecalho">
+    <mat-icon class="iconeUsuario" aria-label="usuario">account_circle</mat-icon>
+    <p>User: Usuário</p> 
+</div>
+
+<div style="display: inline;">
+    <h1>{{tituloMonitoracaoBiologica}}</h1>
+    <a (click)="editar()"><mat-icon class="iconeEditar" aria-label="usuario">edit</mat-icon></a>
+    <a (click)="salvar()"><mat-icon class="iconeSalvar" aria-label="usuario">save</mat-icon></a>
+</div>
+
+<div class="container">
+    <form>
+        <h3>Exames médicos clínicos e complementares</h3>
+        <div >
+            <span>Data:</span>
+            <input type="date">            
+        </div>
+
+        <div>
+            <span>Tipo: </span>
+            <input type="text" placeholder="Tipo">   
+        </div>
+
+        <div>
+            <span>Natureza: </span> 
+            <select name="" id="">
+                <option value="1">Referencial</option>
+                <option value="2">Sequencial</option>
+            </select>
+        </div>
+
+        <div>
+            <span>Exame: </span> 
+            <select name="" id="">
+                <option value="1">Normal</option>
+                <option value="2">Alterado</option>
+            </select>
+        </div>
+
+        <div>
+            <span>Indicação de resultado: </span> 
+            <select name="" id="">
+                <option value="1">Estavel</option>
+                <option value="2">Alterado</option>
+                <option value="3">Agravamento</option>
+                <option value="4">Ocupacional</option>
+                <option value="5">Não Ocupacional</option>
+            </select>
+        </div>
+
+    </form>
+
+    <form>
+        <h3>Responsável pela monitoração Biológica</h3>
+        <div >
+            <span>Período:</span>
+            <input type="date">            
+        </div>
+
+        <div>
+            <span>NIT: </span>
+            <input type="text" placeholder="NIT">   
+        </div>
+
+        <div>
+            <span>Registro Conselho de Classe: </span>
+            <input type="text" placeholder="Registro Conselho de Classe">   
+        </div>
+
+        <div>
+            <span>Nome do profisional Legalmente Habilitado: </span>
+            <input type="text" placeholder="Nome do profisional Legalmente Habilitado">   
+        </div>
+
+
+
+    </form>
+
+
+
+</div>

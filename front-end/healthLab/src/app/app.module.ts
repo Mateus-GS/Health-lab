@@ -18,6 +18,8 @@ import { RelatorioComponent } from './pages/relatorio/relatorio.component';
 import { RelatorioDeAcidenteComponent } from './pages/relatorio-de-acidente/relatorio-de-acidente.component';
 import { DashbordPppComponent } from './pages/dashbord-ppp/dashbord-ppp.component';
 import { DadosAdministrativosComponent } from './pages/dados-administrativos/dados-administrativos.component';
+import { MonitoracaoBiologicaComponent } from './pages/monitoracao-biologica/monitoracao-biologica.component';
+import { ResponsavelPelaInformacaoComponent } from './pages/responsavel-pela-informacao/responsavel-pela-informacao.component';
 
 
 @NgModule({
@@ -33,7 +35,9 @@ import { DadosAdministrativosComponent } from './pages/dados-administrativos/dad
     RelatorioComponent,
     RelatorioDeAcidenteComponent,
     DashbordPppComponent,
-    DadosAdministrativosComponent
+    DadosAdministrativosComponent,
+    MonitoracaoBiologicaComponent,
+    ResponsavelPelaInformacaoComponent
   ],
   imports: [
     BrowserModule,

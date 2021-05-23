@@ -7,10 +7,12 @@ import { CadastroComponent } from './pages/cadastro/cadastro.component';
 import { DadosAdministrativosComponent } from './pages/dados-administrativos/dados-administrativos.component';
 import { DashbordPppComponent } from './pages/dashbord-ppp/dashbord-ppp.component';
 import { LoginComponent } from './pages/login/login.component';
+import { MonitoracaoBiologicaComponent } from './pages/monitoracao-biologica/monitoracao-biologica.component';
 import { PrincipalComponent } from './pages/principal/principal.component';
 import { RecuperarSenhaComponent } from './pages/recuperar-senha/recuperar-senha.component';
 import { RelatorioDeAcidenteComponent } from './pages/relatorio-de-acidente/relatorio-de-acidente.component';
 import { RelatorioComponent } from './pages/relatorio/relatorio.component';
+import { ResponsavelPelaInformacaoComponent } from './pages/responsavel-pela-informacao/responsavel-pela-informacao.component';
 
 const routes: Routes = [
   { path:"", component: LoginComponent},
@@ -24,6 +26,8 @@ const routes: Routes = [
   { path:"relatorio-de-acidente", component: RelatorioDeAcidenteComponent},
   { path:"dashboard-ppp", component: DashbordPppComponent},
   { path:"dados-administrativos", component: DadosAdministrativosComponent},
+  { path:"monitoracao-biologica", component: MonitoracaoBiologicaComponent},
+  { path:"responsavel-pela-informacao", component: ResponsavelPelaInformacaoComponent},
 ];
 
 @NgModule({

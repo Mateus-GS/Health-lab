@@ -1,0 +1,37 @@
+<div class="cabecalho">
+    <mat-icon class="iconeUsuario" aria-label="usuario">account_circle</mat-icon>
+    <p>User: Usuário</p> 
+</div>
+
+<div style="display: inline;">
+    <h1>{{tituloResponsavelPelaInformacao}}</h1>
+    <a (click)="editar()"><mat-icon class="iconeEditar" aria-label="usuario">edit</mat-icon></a>
+    <a (click)="salvar()"><mat-icon class="iconeSalvar" aria-label="usuario">save</mat-icon></a>
+</div>
+
+<div class="container">
+    <form>
+        <h3>Representante legal da empresa</h3>
+        <div >
+            <span>Data emissão do PPP:</span>
+            <input type="date">            
+        </div>
+
+        <div>
+            <span>NIT: </span>
+            <input type="text" placeholder="NIT">   
+        </div>
+
+        <div>
+            <span>Nome: </span>
+            <input type="text" placeholder="Nome">   
+        </div>
+
+        <div>
+            <h3>Observações:</h3>
+            <textarea id="story" name="story" rows="7" cols="100"></textarea>      
+        </div>
+
+    </form>
+
+</div>
