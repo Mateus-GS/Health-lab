@@ -1,0 +1,142 @@
+<div class="cabecalho">
+    <mat-icon class="iconeUsuario" aria-label="usuario">account_circle</mat-icon>
+    <p>User: Usuário</p> 
+</div>
+
+<div style="display: inline;">
+    <h1>{{tituloRegistroAmbiental}}</h1>
+    <a (click)="editar()"><mat-icon class="iconeEditar" aria-label="usuario">edit</mat-icon></a>
+    <a (click)="salvar()"><mat-icon class="iconeSalvar" aria-label="usuario">save</mat-icon></a>
+</div>
+
+<div class="container">
+    <form>
+        <h3>Exposição a fatores de riscos: </h3>
+
+        <div>
+            <span>Período: </span>
+            <input type="date">             
+        </div>
+
+        <div>
+            <span>Tipo: </span>
+            <input type="text" placeholder="Tipo">   
+        </div>
+
+        <div >
+            <span>Fatores de risco: </span>
+            <input type="text" placeholder="Fatores de risco">    
+        </div>
+
+        <div >
+            <span>Itens: </span>
+            <input type="text" placeholder="Itens">            
+        </div>
+
+        <div >
+            <span>Técnicas: </span>
+            <input type="text" placeholder="Técnicas">            
+        </div>
+
+        <div>
+            <span>EPC Eficaz: </span> 
+            <select>
+                <option value="1">Sim</option>
+                <option value="2">Não</option>
+            </select>
+        </div>
+
+        <div>
+            <span>EPI Eficaz: </span> 
+            <select>
+                <option value="1">Sim</option>
+                <option value="2">Não</option>
+            </select>
+        </div>
+
+    </form>
+
+    <form>
+        <h3>Exposição a fatores de riscos: </h3>
+
+        <div>
+            <span>EPI atendem as NR: </span>
+            <select>
+                <option value="1">Sim</option>
+                <option value="2">Não</option>
+            </select>          
+        </div>
+
+        <div>
+            <span>Tentaram implementar medidas de proteção coletiva: </span>
+            <select>
+                <option value="1">Sim</option>
+                <option value="2">Não</option>
+            </select>          
+        </div>
+
+        <div>
+            <span>Foi observado condição de uso ao longo prazo: </span>
+            <select>
+                <option value="1">Sim</option>
+                <option value="2">Não</option>
+            </select>          
+        </div>
+
+        <div>
+            <span>Prazo de validade conforme CA do MTE: </span>
+            <select>
+                <option value="1">Sim</option>
+                <option value="2">Não</option>
+            </select>          
+        </div>
+
+        <div>
+            <span>Troca definida pelo programa ambientais diante recibo assinado: </span>
+            <select>
+                <option value="1">Sim</option>
+                <option value="2">Não</option>
+            </select>          
+        </div>
+
+        <div>
+            <span>Observado higienação: </span>
+            <select>
+                <option value="1">Sim</option>
+                <option value="2">Não</option>
+            </select>          
+        </div>
+
+       
+    </form>
+
+    <form>
+        <h3>Responsável pelos registros ambientais: </h3>
+
+        <div>
+            <span>Período: </span>
+            <input type="date">             
+        </div>
+
+        <div>
+            <span>NIT: </span>
+            <input type="text" placeholder="NIT">             
+        </div>
+
+        <div>
+            <span>Registro conselho de classe: </span>
+            <input type="text" placeholder="Registro conselho de classe">             
+        </div>
+
+        <div>
+            <span>Nome do profissional legalmente habilitado: </span>
+            <input type="text" placeholder="Nome do profissional">             
+        </div>
+
+        
+
+       
+    </form>
+    
+
+</div>

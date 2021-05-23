@@ -20,6 +20,7 @@ import { DashbordPppComponent } from './pages/dashbord-ppp/dashbord-ppp.componen
 import { DadosAdministrativosComponent } from './pages/dados-administrativos/dados-administrativos.component';
 import { MonitoracaoBiologicaComponent } from './pages/monitoracao-biologica/monitoracao-biologica.component';
 import { ResponsavelPelaInformacaoComponent } from './pages/responsavel-pela-informacao/responsavel-pela-informacao.component';
+import { RegistrosAmbientaisComponent } from './pages/registros-ambientais/registros-ambientais.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { ResponsavelPelaInformacaoComponent } from './pages/responsavel-pela-inf
     DashbordPppComponent,
     DadosAdministrativosComponent,
     MonitoracaoBiologicaComponent,
-    ResponsavelPelaInformacaoComponent
+    ResponsavelPelaInformacaoComponent,
+    RegistrosAmbientaisComponent
   ],
   imports: [
     BrowserModule,

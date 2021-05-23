@@ -10,6 +10,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { MonitoracaoBiologicaComponent } from './pages/monitoracao-biologica/monitoracao-biologica.component';
 import { PrincipalComponent } from './pages/principal/principal.component';
 import { RecuperarSenhaComponent } from './pages/recuperar-senha/recuperar-senha.component';
+import { RegistrosAmbientaisComponent } from './pages/registros-ambientais/registros-ambientais.component';
 import { RelatorioDeAcidenteComponent } from './pages/relatorio-de-acidente/relatorio-de-acidente.component';
 import { RelatorioComponent } from './pages/relatorio/relatorio.component';
 import { ResponsavelPelaInformacaoComponent } from './pages/responsavel-pela-informacao/responsavel-pela-informacao.component';
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path:"dados-administrativos", component: DadosAdministrativosComponent},
   { path:"monitoracao-biologica", component: MonitoracaoBiologicaComponent},
   { path:"responsavel-pela-informacao", component: ResponsavelPelaInformacaoComponent},
+  { path:"registros-ambientais", component: RegistrosAmbientaisComponent},
 ];
 
 @NgModule({
