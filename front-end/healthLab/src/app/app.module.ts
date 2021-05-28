@@ -26,6 +26,9 @@ import { DashboardPgrComponent } from './pages/dashboard-pgr/dashboard-pgr.compo
 import { CadastroPgrComponent } from './pages/cadastro-pgr/cadastro-pgr.component';
 import { InventarioDosRiscosOcupacionaisComponent } from './pages/inventario-dos-riscos-ocupacionais/inventario-dos-riscos-ocupacionais.component';
 import { InformacoesAgentesFisicosComponent } from './pages/informacoes-agentes-fisicos/informacoes-agentes-fisicos.component';
+import { BrigadaDeIncendioMembrosComponent } from './pages/brigada-de-incendio-membros/brigada-de-incendio-membros.component';
+import { BrigadaIncendioEquipeComponent } from './pages/brigada-incendio-equipe/brigada-incendio-equipe.component';
+import { BrigadaIncendioMenuComponent } from './pages/brigada-incendio-menu/brigada-incendio-menu.component';
 
 
 @NgModule({
@@ -50,6 +53,9 @@ import { InformacoesAgentesFisicosComponent } from './pages/informacoes-agentes-
     CadastroPgrComponent,
     InventarioDosRiscosOcupacionaisComponent,
     InformacoesAgentesFisicosComponent,
+    BrigadaDeIncendioMembrosComponent,
+    BrigadaIncendioEquipeComponent,
+    BrigadaIncendioMenuComponent,
   ],
   imports: [
     BrowserModule,
