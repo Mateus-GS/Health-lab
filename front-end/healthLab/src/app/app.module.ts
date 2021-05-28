@@ -26,9 +26,16 @@ import { DashboardPgrComponent } from './pages/dashboard-pgr/dashboard-pgr.compo
 import { CadastroPgrComponent } from './pages/cadastro-pgr/cadastro-pgr.component';
 import { InventarioDosRiscosOcupacionaisComponent } from './pages/inventario-dos-riscos-ocupacionais/inventario-dos-riscos-ocupacionais.component';
 import { InformacoesAgentesFisicosComponent } from './pages/informacoes-agentes-fisicos/informacoes-agentes-fisicos.component';
-import { BrigadaDeIncendioMembrosComponent } from './pages/brigada-de-incendio-membros/brigada-de-incendio-membros.component';
-import { BrigadaIncendioEquipeComponent } from './pages/brigada-incendio-equipe/brigada-incendio-equipe.component';
-import { BrigadaIncendioMenuComponent } from './pages/brigada-incendio-menu/brigada-incendio-menu.component';
+import { RelatoriosGerenciaisComponent } from './pages/relatorios-gerenciais/relatorios-gerenciais.component';
+import { Nr04Component } from './pages/nr04/nr04.component';
+import { QuadroIIIComponent } from './pages/nr04/quadro-iii/quadro-iii.component';
+import { QuadroIVComponent } from './pages/nr04/quadro-iv/quadro-iv.component';
+import { QuadroVComponent } from './pages/nr04/quadro-v/quadro-v.component';
+import { QuadroVIComponent } from './pages/nr04/quadro-vi/quadro-vi.component';
+import { AcidentesComponent } from './pages/acidentes/acidentes.component';
+import { ConsumoEpiComponent } from './pages/consumo-epi/consumo-epi.component';
+import { TreinamentoPessoalComponent } from './pages/treinamento-pessoal/treinamento-pessoal.component';
+import { EmpresasContratadasComponent } from './pages/empresas-contratadas/empresas-contratadas.component';
 
 
 @NgModule({
@@ -53,9 +60,16 @@ import { BrigadaIncendioMenuComponent } from './pages/brigada-incendio-menu/brig
     CadastroPgrComponent,
     InventarioDosRiscosOcupacionaisComponent,
     InformacoesAgentesFisicosComponent,
-    BrigadaDeIncendioMembrosComponent,
-    BrigadaIncendioEquipeComponent,
-    BrigadaIncendioMenuComponent,
+    RelatoriosGerenciaisComponent,
+    Nr04Component,
+    QuadroIIIComponent,
+    QuadroIVComponent,
+    QuadroVComponent,
+    QuadroVIComponent,
+    AcidentesComponent,
+    ConsumoEpiComponent,
+    TreinamentoPessoalComponent,
+    EmpresasContratadasComponent,
   ],
   imports: [
     BrowserModule,

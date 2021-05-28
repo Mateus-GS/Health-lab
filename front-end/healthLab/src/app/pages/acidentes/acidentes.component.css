@@ -1,9 +1,4 @@
-h1 {
-    font-family: 'Shadows Into Light Two', cursive;
-    color: #55595c;
-    font-size: 60px;
-    text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,200&display=swap');
 
 .cabecalho {
     width: auto;
@@ -13,7 +8,6 @@ h1 {
 }
 
 .cabecalho p {
-
     margin-left: 1%;
     margin-top: -0.2%;
     color: white;
@@ -24,6 +18,13 @@ h1 {
     margin-top: 1%;
     font-size: 40px;
     color: #333333;
+}
+
+h1 {
+    font-family: 'Shadows Into Light Two', cursive;
+    color: #55595c;
+    font-size: 50px;
+    text-align: center;
 }
 
 .iconeSalvar {
@@ -42,11 +43,9 @@ h1 {
     color: #333333;
 }
 
-/*  --------- Exemplo Felipe -------------- */
-
 form {
     
-    margin: 0 auto;
+    margin: 20px auto;
     width: 900px;
     padding: 1em;
     border: 1px solid #CCC;
@@ -88,4 +87,11 @@ textarea {
 }
 button {
     margin-left: .0em;
+}
+h3 {
+    font-family: 'KoHo', sans-serif;
+}
+textarea {
+    width: 850px;
+    height: 200px;
 }

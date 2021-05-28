@@ -1,0 +1,104 @@
+h1 {
+    font-family: 'Shadows Into Light Two', cursive;
+    color: #55595c;
+    font-size: 60px;
+    text-align: center;
+}
+
+a {
+    text-decoration:none; 
+}
+
+.item {
+	margin: 18px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+.flex {
+	display: flex;
+}
+
+
+.cabecalho {
+    width: auto;
+    height: 100px;
+    background-color: #4aa95a;
+    font-size: 25px;
+}
+
+.cabecalho p {
+    margin-left: 1%;
+    margin-top: -0.2%;
+    color: white;
+}
+
+.iconeUsuario {
+    margin-left: 1.5%;
+    margin-top: 1%;
+    font-size: 40px;
+    color: #333333;
+}
+
+.box_relatorio_AcidenteDeTrabalho{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 600px;
+    height: 150px;
+    background-color: #d9534f;
+    border-color: #d9534f; 
+}
+
+.box_relatorio_AcidenteDeTrabalho p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.boxBottom_relatorio_AcidenteDeTrabalho {
+    font-family: 'Roboto', sans-serif;
+    width: 594px;
+    height:50px;
+    margin-left: 5%;
+    background-color: white;
+    border-style: solid;
+    border-color: #d9534f;
+}
+
+.boxBottom_relatorio_AcidenteDeTrabalho p {
+    color: #d9534f;
+    margin-left: -30px;
+}
+.containerAcidenteDoTrabalho {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containerAcidenteDoTrabalho{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.verDetalhes {
+    margin-top: 17px;
+}
+
+.iconeAdd {
+    margin-left: 50%;
+    
+}
+
+.iconeBox {
+    display:inline;
+    float:left;
+    margin: 5%;
+    margin-top: 2%;
+    font-size: 90px;
+    color: #333333;
+}

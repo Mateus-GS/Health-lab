@@ -2,9 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AcidenteDeTrabalhoComponent } from './pages/acidente-de-trabalho/acidente-de-trabalho.component';
 import { AtestadoMedicoComponent } from './pages/atestado-medico/atestado-medico.component';
-import { BrigadaDeIncendioMembrosComponent } from './pages/brigada-de-incendio-membros/brigada-de-incendio-membros.component';
-import { BrigadaIncendioEquipeComponent } from './pages/brigada-incendio-equipe/brigada-incendio-equipe.component';
-import { BrigadaIncendioMenuComponent } from './pages/brigada-incendio-menu/brigada-incendio-menu.component';
 import { CadastroCatComponent } from './pages/cadastro-cat/cadastro-cat.component';
 import { CadastroPgrComponent } from './pages/cadastro-pgr/cadastro-pgr.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
@@ -22,6 +19,16 @@ import { RegistrosAmbientaisComponent } from './pages/registros-ambientais/regis
 import { RelatorioDeAcidenteComponent } from './pages/relatorio-de-acidente/relatorio-de-acidente.component';
 import { RelatorioComponent } from './pages/relatorio/relatorio.component';
 import { ResponsavelPelaInformacaoComponent } from './pages/responsavel-pela-informacao/responsavel-pela-informacao.component';
+import { RelatoriosGerenciaisComponent } from './pages/relatorios-gerenciais/relatorios-gerenciais.component';
+import { Nr04Component } from './pages/nr04/nr04.component';
+import { QuadroIIIComponent } from './pages/nr04/quadro-iii/quadro-iii.component';
+import { QuadroIVComponent } from './pages/nr04/quadro-iv/quadro-iv.component';
+import { QuadroVComponent } from './pages/nr04/quadro-v/quadro-v.component';
+import { QuadroVIComponent } from './pages/nr04/quadro-vi/quadro-vi.component';
+import { AcidentesComponent } from './pages/acidentes/acidentes.component';
+import { ConsumoEpiComponent } from './pages/consumo-epi/consumo-epi.component';
+import { TreinamentoPessoalComponent } from './pages/treinamento-pessoal/treinamento-pessoal.component';
+import { EmpresasContratadasComponent } from './pages/empresas-contratadas/empresas-contratadas.component';
 
 const routes: Routes = [
   { path:"", component: LoginComponent},
@@ -43,9 +50,16 @@ const routes: Routes = [
   { path:"cadastro-pgr", component: CadastroPgrComponent},
   { path:"informacoes-agentes-fisicos", component: InformacoesAgentesFisicosComponent},
   { path:"inventario-dos-riscos-ocupacionais", component: InventarioDosRiscosOcupacionaisComponent},
-  { path:"brigada-de-incendio-membros", component: BrigadaDeIncendioMembrosComponent},
-  { path:"brigada-de-incendio-equipe", component: BrigadaIncendioEquipeComponent},
-  { path:"brigada-de-incendio-menu", component: BrigadaIncendioMenuComponent},
+  { path:"relatorios-gerenciais", component: RelatoriosGerenciaisComponent},
+  { path:"nr04", component: Nr04Component},
+  { path:"quadro-iii", component: QuadroIIIComponent},
+  { path:"quadro-iv", component: QuadroIVComponent},
+  { path:"quadro-v", component: QuadroVComponent},
+  { path:"quadro-vi", component: QuadroVIComponent},
+  { path:"acidentes", component: AcidentesComponent},
+  { path:"consumo-epi", component: ConsumoEpiComponent},
+  { path:"treinamento-pessoal", component: TreinamentoPessoalComponent},
+  { path:"empresas-contratadas", component: EmpresasContratadasComponent},
 ];
 
 @NgModule({
