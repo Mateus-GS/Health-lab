@@ -1,0 +1,69 @@
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+<div class="cabecalho">
+    <mat-icon class="iconeUsuario" aria-label="usuario">account_circle</mat-icon>
+    <p>User: Usuário</p> 
+</div>
+
+<div style="display: inline;">
+    <h1>{{tituloPgr}}</h1>
+    <a (click)="editar()"><mat-icon class="iconeEditar" aria-label="usuario">edit</mat-icon></a>
+    <a (click)="salvar()"><mat-icon class="iconeSalvar" aria-label="usuario">save</mat-icon></a>
+</div>
+<div class="container">
+    <form>
+
+        <div>
+            <span>Razão social: </span>
+            <input type="text" placeholder="Razão Social">             
+        </div>
+
+        <div>
+            <span>Nome Fantasia: </span>
+            <input type="text" placeholder="Nome Fantasia">   
+        </div>
+
+
+        <div >
+            <span>CNPJ: </span>
+            <input type="text" placeholder="CNAE">    
+        </div>
+
+        <div >
+            <span>CNAE: </span>
+            <input type="text" placeholder="CNAE">    
+        </div>
+
+        <div >
+            <span>Inscrição Municipal: </span>
+            <input type="text" placeholder="Inscrição Municipal">            
+        </div>
+
+        <div >
+            <span>Inscrição Junta Comercial: </span>
+            <input type="text" placeholder="Inscrição Junta Comercial">            
+        </div>
+
+        <div >
+            <span>Endereço: </span>
+            <input type="text" placeholder="Endereço">            
+        </div>
+
+        <div >
+            <span>Telefone: </span>
+            <input type="text" placeholder="Telefone">            
+        </div>
+
+        <div >
+            <span>E-mail: </span>
+            <input type="text" placeholder="E-mail">            
+        </div>
+
+        <div >
+            <span>Contato do responsável: </span>
+            <input type="text" placeholder="Contato do responsável">            
+        </div> 
+
+    </form>
+
+</div>
+

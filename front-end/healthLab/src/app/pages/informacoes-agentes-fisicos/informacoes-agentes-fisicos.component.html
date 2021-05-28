@@ -1,0 +1,48 @@
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+<div class="cabecalho">
+    <mat-icon class="iconeUsuario" aria-label="usuario">account_circle</mat-icon>
+    <p>User: Usuário</p> 
+</div>
+
+<div style="display: inline;">
+    <h1>{{tituloPgr}}</h1>
+    <a (click)="editar()"><mat-icon class="iconeEditar" aria-label="usuario">edit</mat-icon></a>
+    <a (click)="salvar()"><mat-icon class="iconeSalvar" aria-label="usuario">save</mat-icon></a>
+</div>
+<div class="container">
+    <form>
+
+        <div>
+            <span>Descrição das atividades: </span>
+            <input type="text" placeholder="Descrição das atividades">             
+        </div>
+
+        <div>
+            <span>Identificação do agente de exposição: </span>
+            <input type="text" placeholder="Identificação do agente de exposição">   
+        </div>
+
+        <div >
+            <span>Lesões relacionadas à exposição: </span>
+            <input type="text" placeholder="Lesões relacionadas à exposição">    
+        </div>
+
+        <div >
+            <span>Fatores determinantes da exposição: </span>
+            <input type="text" placeholder="Fatores determinantes da exposição">            
+        </div>
+
+        <div >
+            <span>Medidas de prevenção: </span>
+            <input type="text" placeholder="Medidas de prevenção">            
+        </div>
+
+        <div >
+            <span>Identificação dos trabalhadores expostos: </span>
+            <input type="text" placeholder="Identificação dos trabalhadores expostos">            
+        </div>
+
+    </form>
+
+</div>
+

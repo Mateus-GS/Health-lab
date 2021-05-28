@@ -1,0 +1,44 @@
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+<div class="cabecalho">
+    <mat-icon class="iconeUsuario" aria-label="usuario">account_circle</mat-icon>
+    <p>User: Usuário</p> 
+</div>
+
+<div style="display: inline;">
+    <h1>{{tituloPgr}}</h1>
+    <a (click)="editar()"><mat-icon class="iconeEditar" aria-label="usuario">edit</mat-icon></a>
+    <a (click)="salvar()"><mat-icon class="iconeSalvar" aria-label="usuario">save</mat-icon></a>
+</div>
+<div class="container">
+    <form>
+
+
+        <div>
+            <span>Caracterização do ambiente de trabalho: </span>
+            <input type="text" placeholder="Caracterização do ambiente de trabalho">             
+        </div>
+
+        <div>
+            <span>Caracterização das atividades: </span>
+            <input type="text" placeholder="Caracterização das atividades">   
+        </div>
+
+        <div >
+            <span>Descrição de perigos e riscos: </span>
+            <input type="text" placeholder="Descrição de perigos e riscos">    
+        </div>
+
+        <div >
+            <span>Nome dos trabalhadores sujeitos ao risco: </span>
+            <input type="text" placeholder="Nome dos trabalhadores sujeitos ao riscos">            
+        </div>
+
+        <div >
+            <span>Medidas preventivas: </span>
+            <input type="text" placeholder="Medidas preventivas">            
+        </div>
+
+    </form>
+
+</div>
+

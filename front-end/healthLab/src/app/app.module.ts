@@ -21,6 +21,11 @@ import { DadosAdministrativosComponent } from './pages/dados-administrativos/dad
 import { MonitoracaoBiologicaComponent } from './pages/monitoracao-biologica/monitoracao-biologica.component';
 import { ResponsavelPelaInformacaoComponent } from './pages/responsavel-pela-informacao/responsavel-pela-informacao.component';
 import { RegistrosAmbientaisComponent } from './pages/registros-ambientais/registros-ambientais.component';
+import { PgrComponent } from './pages/pgr/pgr.component';
+import { DashboardPgrComponent } from './pages/dashboard-pgr/dashboard-pgr.component';
+import { CadastroPgrComponent } from './pages/cadastro-pgr/cadastro-pgr.component';
+import { InventarioDosRiscosOcupacionaisComponent } from './pages/inventario-dos-riscos-ocupacionais/inventario-dos-riscos-ocupacionais.component';
+import { InformacoesAgentesFisicosComponent } from './pages/informacoes-agentes-fisicos/informacoes-agentes-fisicos.component';
 
 
 @NgModule({
@@ -39,7 +44,12 @@ import { RegistrosAmbientaisComponent } from './pages/registros-ambientais/regis
     DadosAdministrativosComponent,
     MonitoracaoBiologicaComponent,
     ResponsavelPelaInformacaoComponent,
-    RegistrosAmbientaisComponent
+    RegistrosAmbientaisComponent,
+    PgrComponent,
+    DashboardPgrComponent,
+    CadastroPgrComponent,
+    InventarioDosRiscosOcupacionaisComponent,
+    InformacoesAgentesFisicosComponent,
   ],
   imports: [
     BrowserModule,
