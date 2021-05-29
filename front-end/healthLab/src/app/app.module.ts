@@ -36,6 +36,9 @@ import { AcidentesComponent } from './pages/acidentes/acidentes.component';
 import { ConsumoEpiComponent } from './pages/consumo-epi/consumo-epi.component';
 import { TreinamentoPessoalComponent } from './pages/treinamento-pessoal/treinamento-pessoal.component';
 import { EmpresasContratadasComponent } from './pages/empresas-contratadas/empresas-contratadas.component';
+import { BrigadaDeIncendioMembrosComponent } from './pages/brigada-de-incendio-membros/brigada-de-incendio-membros.component';
+import { BrigadaIncendioEquipeComponent } from './pages/brigada-incendio-equipe/brigada-incendio-equipe.component';
+import { BrigadaIncendioMenuComponent } from './pages/brigada-incendio-menu/brigada-incendio-menu.component';
 
 
 @NgModule({
@@ -70,6 +73,9 @@ import { EmpresasContratadasComponent } from './pages/empresas-contratadas/empre
     ConsumoEpiComponent,
     TreinamentoPessoalComponent,
     EmpresasContratadasComponent,
+    BrigadaDeIncendioMembrosComponent,
+    BrigadaIncendioEquipeComponent,
+    BrigadaIncendioMenuComponent,
   ],
   imports: [
     BrowserModule,

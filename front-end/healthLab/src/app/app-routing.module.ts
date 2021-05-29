@@ -2,6 +2,9 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AcidenteDeTrabalhoComponent } from './pages/acidente-de-trabalho/acidente-de-trabalho.component';
 import { AtestadoMedicoComponent } from './pages/atestado-medico/atestado-medico.component';
+import { BrigadaDeIncendioMembrosComponent } from './pages/brigada-de-incendio-membros/brigada-de-incendio-membros.component';
+import { BrigadaIncendioEquipeComponent } from './pages/brigada-incendio-equipe/brigada-incendio-equipe.component';
+import { BrigadaIncendioMenuComponent } from './pages/brigada-incendio-menu/brigada-incendio-menu.component';
 import { CadastroCatComponent } from './pages/cadastro-cat/cadastro-cat.component';
 import { CadastroPgrComponent } from './pages/cadastro-pgr/cadastro-pgr.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
@@ -50,6 +53,9 @@ const routes: Routes = [
   { path:"cadastro-pgr", component: CadastroPgrComponent},
   { path:"informacoes-agentes-fisicos", component: InformacoesAgentesFisicosComponent},
   { path:"inventario-dos-riscos-ocupacionais", component: InventarioDosRiscosOcupacionaisComponent},
+  { path:"brigada-de-incendio-membros", component: BrigadaDeIncendioMembrosComponent},
+  { path:"brigada-de-incendio-equipe", component: BrigadaIncendioEquipeComponent},
+  { path:"brigada-de-incendio-menu", component: BrigadaIncendioMenuComponent},
   { path:"relatorios-gerenciais", component: RelatoriosGerenciaisComponent},
   { path:"nr04", component: Nr04Component},
   { path:"quadro-iii", component: QuadroIIIComponent},
